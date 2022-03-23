@@ -43,4 +43,4 @@ Use The IP of the OS
 # skip STMP
 
 
-Naw check the Domain You Will get the open Project
+Now check the Domain You Will get the open Project
