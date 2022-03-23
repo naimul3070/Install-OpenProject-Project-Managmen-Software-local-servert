@@ -8,6 +8,8 @@ Install And get Backup OpenProject in Local Server
 Ubuntu OS (Installed)
 Pg-Admin (Installed)
 
+# For install PG-Admin can folloy the link:  https://github.com/naimul3070/Install-PG-Admin.git
+
 Commands for Install open project 
 
 # Add PGP Key
