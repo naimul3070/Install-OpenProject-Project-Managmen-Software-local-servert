@@ -15,6 +15,8 @@ wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -
 
 
 
+
+
 # Integrate OpenProject repository in Ubuntu 20.04
 
 sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo
@@ -29,6 +31,8 @@ sudo apt update
 # Command to install OpenProject in Ubuntu 20.04 LTS
 
 sudo apt install openproject
+
+
 
 
 
