@@ -14,9 +14,6 @@ Commands for Install open project
 wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -
 
 
-
-
-
 # Integrate OpenProject repository in Ubuntu 20.04
 
 sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo
@@ -33,26 +30,11 @@ sudo apt update
 sudo apt install openproject
 
 
-
-
-
-
 Press Y for confirmation 
 
 # Start configuring OpenProject
 
 sudo openproject configure
-
-
-
-
-
-
-
-
-
-
-
 
 Use The IP of the OS
 
@@ -60,3 +42,5 @@ Use The IP of the OS
 # Install subversion repository support
 # skip STMP
 
+
+Naw check the Domain You Will get the open Project
