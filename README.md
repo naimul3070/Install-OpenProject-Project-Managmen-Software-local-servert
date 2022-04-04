@@ -3,27 +3,27 @@
 Install And get Backup OpenProject in Local Server
 
 
-# Install Process
-# What we need
+## Install Process
+## What we need
 Ubuntu OS (Installed)
 Pg-Admin (Installed)
 
-# For install PG-Admin can folloy the link:  https://github.com/naimul3070/Install-PG-Admin.git
+## For install PG-Admin can folloy the link:  https://github.com/naimul3070/Install-PG-Admin.git
 
 Commands for Install open project 
 
-# Add PGP Key
+## Add PGP Key
 wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -
 
 
-# Integrate OpenProject repository in Ubuntu 20.04
+## Integrate OpenProject repository in Ubuntu 20.04
 
 sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo
 
 
-# Press Y for confirmation
+## Press Y for confirmation
 
-# Run system update
+## Run system update
 
 sudo apt update
 
