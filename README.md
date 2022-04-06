@@ -1,14 +1,19 @@
 		
-Add PGP Key	wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -	
+Add PGP Key	
+ wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -	
 		
-Integrate OpenProject repository in Ubuntu 20.04	sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo	
+Integrate OpenProject repository in Ubuntu 20.04	
+ sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo	
 		
-Update package	"sudo apt update
+Update package	"
+ sudo apt update
 "	
 		
-Now install openproject	sudo apt install openproject	
+Now install openproject	
+ sudo apt install openproject	
 "Start configuring OpenProject
-"	sudo openproject configure	domain name use the ip address of the os static ip if available or localhost address
+ sudo openproject configure	
+ domain name use the ip address of the os static ip if available or localhost address
 		
 Select Default OpenProject 		
 		
@@ -69,4 +74,4 @@ step 3 - After successfully connect database into pgadmin restore existing backu
 		
 last step copy file system and replace with new file system	/var/de/openproject/files	
 		
-	Happy openProject	
+	## Happy openProject	
