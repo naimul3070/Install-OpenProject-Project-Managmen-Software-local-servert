@@ -1,18 +1,18 @@
 		
 Add PGP Key	
- wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -	
+ 	wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -	
 		
 Integrate OpenProject repository in Ubuntu 20.04	
- sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo	
+ 	sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo	
 		
 Update package	"
- sudo apt update
+ 	sudo apt update
 "	
 		
 Now install openproject	
- sudo apt install openproject	
+ 	sudo apt install openproject	
 "Start configuring OpenProject
- sudo openproject configure	
+ 	sudo openproject configure	
  domain name use the ip address of the os static ip if available or localhost address
 		
 Select Default OpenProject 		
