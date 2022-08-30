@@ -1,28 +1,37 @@
 		
-Add PGP Key	
+Add PGP Key
+
  	wget -qO- https://dl.packager.io/srv/opf/openproject/key | sudo apt-key add -	
 		
-Integrate OpenProject repository in Ubuntu 20.04	
+Integrate OpenProject repository in Ubuntu 20.04
+
  	sudo wget -O /etc/apt/sources.list.d/openproject.list https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/20.04.repo	
 		
-Update package	"
+Update package
+
  	sudo apt update
-"	
 		
-Now install openproject	
- 	sudo apt install openproject	
+Now install openproject
+
+	sudo apt install openproject
+	
 "Start configuring OpenProject
  	sudo openproject configure	
  domain name use the ip address of the os static ip if available or localhost address
 		
 Select Default OpenProject 		
 		
-Configure PostgreSQL		
+Configure PostgreSQL
+
 "To store its data we need a database server, here the OpenProject offers you an option to automatically install “Postgres“, however, if you already have an installed Postgres somewhere or on the same server then you can go for “Use an existing PostgreSQL database” option.
 
-However, here we are going for “Install a new PostgreSQL server and database locally“. Select it, Okay, and then hit the Enter key."	if install first time use install /use install postgres database locally         if you have pre-install postgresssql then use refuse >>that means use existing database	
+However, here we are going for 
+“Install a new PostgreSQL server and database locally“. 
+Select it, Okay, and then hit the Enter key."	
+if install first time use install /use install postgres database locally         
+if you have pre-install postgresssql then use refuse >>that means use existing database	
 		
-Install Apache Webserver		
+	Install Apache Webserver		
 		
 Set Fully Qualified domain
 		
